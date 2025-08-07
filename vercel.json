@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "root": "sigomap-app-react",
   "builds": [
     {
-      "src": "package.json",
+      "src": "sigomap-app-react/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist"
+        "distDir": "sigomap-app-react/dist"
       }
     }
   ],
@@ -17,4 +16,3 @@
     }
   ]
 }
-
